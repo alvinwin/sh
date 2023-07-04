@@ -1,0 +1,1 @@
+protonvpn-cli connect -f
