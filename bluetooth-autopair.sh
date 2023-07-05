@@ -1,11 +1,13 @@
+# un-pair bluetooth devices
+bluetoothctl remove 00:11:22:33:44:55
+bluetoothctl remove AA:BB:CC:DD:EE:FF
+
 # scan for available bluetooth devices 
 bluetoothctl scan on
 
-# connect to headphones
-blueconnectctl connect 40:58:99:2E:24:31
-
-# connect to controller
-bluetoothctl connect A4:AE:12:AB:AC:D4
+# connect to devices
+blueconnectctl connect 00:11:22:33:44:55
+bluetoothctl connect AA:BB:CC:DD:EE:FF
 
 # disables bluetooth device scanning
 bluetoothctl scan off
