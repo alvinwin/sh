@@ -5,6 +5,9 @@ A collection of bash scripts I use, ranging from automating services on startup 
 # bluetooth-autopair.sh
 Scans for available bluetooth devices and connects to select devices
 
+# protonvpn-ks-reset.sh
+Resets vpn killswitch and reconnects to fastest available server with killswitch enabled
+
 # protonvpn-startup.sh
 Initializes a connection to the fastest available proton vpn server
 
