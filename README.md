@@ -1,6 +1,6 @@
 # sh
 
-A collection of bash scripts I use, ranging from automating services on startup to simplifying repetitive tasks.
+A collection of bash scripts I use, aimed to streamline common repetitive tasks
 
 # bluetooth-autopair.sh
 Scans for available bluetooth devices and connects to select devices
